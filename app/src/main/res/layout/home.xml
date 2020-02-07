@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:src="@drawable/rofik"
+                android:layout_marginLeft="40dp"
+                />
+            <TextView
+                android:id="@+id/judul"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CURRICULUM VITAE"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="cursive"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/prbadi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/foto"
+            android:text="Data Pribadi"
+            android:textSize="10dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prbadi"
+            android:text="Nama    : Abd. Rofik Budin"
+            />
+        <TextView
+            android:id="@+id/ttl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama"
+            android:text="TTL        : Lafeu, 12 Desember 2000"
+            />
+        <TextView
+            android:id="@+id/agama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ttl"
+            android:text="Agama : Islam"
+            />
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/agama"
+            android:text="Alamat  :  Bungku Pesisir Kab. Morowali Prov. Sulawesi Tengah"
+            />
+        <TextView
+            android:id="@+id/kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alamat"
+            android:text="Jenis Kelamin  :  Laki-laki"
+            />
+        <TextView
+            android:id="@+id/hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kelamin"
+            android:text="No. HP : 0859 5066 7427"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hp"
+            android:text="Email : abdrofik1212@gmail.com"
+            />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:text="Status : Belum Menikah"
+            />
+
+        <Button
+            android:id="@+id/pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/status"
+            android:text="Pendidikan"
+            android:textSize="10dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/sd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pendidikan"
+            android:text="2007-2011 -> SDN 1 Lafeu"
+            />
+        <TextView
+            android:id="@+id/smp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sd"
+            android:text="2011-2014 -> SMPN 1 Lafeu"
+            />
+        <TextView
+            android:id="@+id/sma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/smp"
+            android:text="2015-2018 -> SMAN 3 Poso"
+            />
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sma"
+            android:text="2018-sekarang -> UPN Veteran Yogyakarta"
+            />
+
+        <Button
+            android:id="@+id/prestasi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/s1"
+            android:text="Prestasi"
+            android:textSize="10dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/prestasi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi"
+            android:text="1. Peserta Musabaqoh Tartilil Qur'an MTQMN 2019"
+            />
+        <TextView
+            android:id="@+id/prestasi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi1"
+            android:text="2. Finalis Debat Festival Mahasiswa Bidikmisi Nasional"
+            />
+        <TextView
+            android:id="@+id/prestasi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi2"
+            android:text="3. Juara Harapan 3 Lomba Cerita Inspiratif Pekan Intelektual Mahasiswa Bidikmisi Nasional 2019"
+            />
+        <TextView
+            android:id="@+id/prestasi4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi3"
+            android:text="4. Juara 1 Tilawatil Qur'an Ramadhan di Fakultas Pertanian UPN Veteran Yogyakarta"
+            />
+        <TextView
+            android:id="@+id/prestasi5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi4"
+            android:text="5. Juara 1 Azan Ramadhan di Fakultas Pertanian UPN Veteran Yogyakarta"
+            />
+        <TextView
+            android:id="@+id/prestasi6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prestasi5"
+            android:text="6. Juara 2 Pidato Ramadhan di Fakultas Pertanian UPN Veteran Yogyakarta"
+            />
+
+        <Button
+            android:id="@+id/Organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/prestasi6"
+            android:text="Organisasi"
+            android:textSize="10dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/orga1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Organisasi"
+            android:text="2017/2018 -> Ketua Devisi Kerohanian OSIS SMAN 3 Poso"
+            />
+        <TextView
+            android:id="@+id/orga2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga1"
+            android:text="2017/2018 -> Staf Pengurus Pramuka SMAN 3 Poso"
+            />
+        <TextView
+            android:id="@+id/orga3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga2"
+            android:text="2017/2018 -> Staf Pengurus PMR SMAN 3 Poso"
+            />
+        <TextView
+            android:id="@+id/orga4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga3"
+            android:text="2018/2019 -> Staf Devisi Syiar Keluarga Mahasiswa Islam UPN Veteran Yogyakarta"
+            />
+        <TextView
+            android:id="@+id/orga5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga4"
+            android:text="2018/2019 -> Staf Devisi Kerohanian dan Keilmuan Ikatan Pelajar Mahasiswa Morowali Yogyakarta"
+            />
+        <TextView
+            android:id="@+id/orga6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga5"
+            android:text="2019/2020 -> Wakil Ketua Keluarga MAhasiswa Islam UPN Veteran Yogyakarta"
+            />
+        <TextView
+            android:id="@+id/orga7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orga6"
+            android:text="2019/2020 -> Staf Komistrat Keluarga Mahasiswa Islam Jurusan Informatika UPN Veteran Yogyakarta"
+            />
+    </LinearLayout>
+</ScrollView>
